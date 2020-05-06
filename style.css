@@ -1,0 +1,48 @@
+
+body{
+    background-color: #0d0d0d !important;
+    }
+
+#speedometer{
+    border: 5px solid #999999;
+    border-bottom-left-radius: 80px ;
+    border-bottom-right-radius: 80px ;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px ;
+    height: 25rem;
+}
+
+#speed{
+  font-size: 6rem;
+  color: #fff;
+
+    width: 340px;
+    height: 170px; /* as the half of the width */
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+width: 340px;
+height: 170px; /* as the half of the width */
+border-top-left-radius: 180px;  /* 100px of height + 10px of border */
+border-top-right-radius: 180px; /* 100px of height + 10px of border */
+border: 10px solid gray;
+border-color: #ffa500 #1a1a1a #ffa500 #ffa500;
+border-bottom: 0;
+}
+
+#speedometer i{
+  font-size: 3rem;
+  color: #0099ff;
+}
+
+#time{
+  font-size: 3.5rem;
+}
+#temperature{
+  font-size: 3rem;
+}
+#location{
+  font-size: 2rem;
+}
